@@ -3,8 +3,8 @@ import http.requests.*;
 void makeRequest(){
   String url = "https://gateway1.iiti.ac.in:8003/index.php";
   PostRequest post = new PostRequest(url);
-  post.addData("auth_user", "me220003085");
-  post.addData("auth_pass", "9137730464");
+  post.addData("auth_user", "username");
+  post.addData("auth_pass", "password");
   post.addData("auth_voucher", "");
   post.addData("redirurl", "http://www.gstatic.com/generate_204");
   post.addData("zone", "iitiauth");
